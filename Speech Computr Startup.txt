@@ -1,0 +1,7 @@
+Dim speaks, speech
+speaks="Welcome   yash   how are you"
+Set speech=CreateObject("sapi.spvoice")
+speech.Speak speaks
+
+
+# save it with extension .vbs
